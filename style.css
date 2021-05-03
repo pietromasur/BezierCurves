@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap');
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    zoom : 75%;
+}
+
+/*tirando setinhas feias do input*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+body {
+    background-image: linear-gradient(-99deg,#020202, #cacaca);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: rgb(160, 0, 0);
+    text-shadow: 2px 2px #000000;
+    font-size: 100px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#canvas{
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+}
+
+#options div {
+    margin: 20px;
+}
+
+button {
+    margin: 7px;
+    padding: 5px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    background-color: #ee0000;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+button:focus{
+    outline: none;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+input[type=number]{
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    width: 150px;
+}
+
+#avNum:focus {
+    color: #f0ae8b;
+    outline: none;
+}
+
+#delBut, #selectBut, #delPointBut, #newPointBut{
+    visibility: hidden;
+}
+
+#options {
+    display: flex;
+}
+
+#fila1, #fila2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+#fila1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 5px;
+}
+
+#fila1 .check label{
+    display: inline;
+}
+
+#fila1 div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

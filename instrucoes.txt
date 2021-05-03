@@ -1,0 +1,9 @@
+Para criar uma nova curva, aperte o botão "nova curva" e selecione pontos na tela. Depois de selecionar os pontos, aperte em "Criar Curva".
+Para selecionar uma curva, aperte o botão "selecionar curva". A curva selecionada é a laranja.
+Para deletar uma curva, selecione a curva e aperte em "deletar curva".
+Para adicionar um ponto de controle a uma curva, selecione ela e aperte em "adicionar pontos". Selecione pontos na tela e quando terminar aperte em "Pronto!".
+Para alterar um ponto de controle, selecione a curva, segure o ponto de controle e arraste.
+Para deletar um ponto de controle, selecione a curva, clique no ponto de controle e aperte em "deletar ponto".
+Para definir o número de avaliaçes, altere o input "número de avaliaçes" e aperte enter.
+Para esconder pontos de controle, poligonais de controle ou as curvas, desmarque os checkboxes "mostrar pontos", mostrar "linhas" ou "mostrar curvas".
+
